@@ -1,0 +1,28 @@
+.container{
+    min-width: 95vw;
+}
+.nav-wrapper{
+    background: #5A6E7D;
+}
+.nav-wrapper a{
+    padding-left: 2vw;
+}
+
+.btnPay{
+    background: #5A6E7D;
+    font-weight: 700;
+}
+
+.hElm{
+    margin: 0 2vw; 
+}
+
+
+@media screen and (max-width:720px){
+    .container{
+        min-width: 100vw;
+    }
+    .nav-wrapper a{
+        padding-left: 1vw;
+    }
+}
